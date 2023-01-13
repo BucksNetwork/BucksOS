@@ -1,0 +1,1 @@
+mv update1.sh ~
