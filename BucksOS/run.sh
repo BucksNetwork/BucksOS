@@ -1,5 +1,5 @@
 echo "Loading user data..."
-n='Test_user'
+n='root'
 
 clear
 echo "Welcome $n"
