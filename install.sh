@@ -1,0 +1,1 @@
+mv bucksautostartup.sh ~/etc

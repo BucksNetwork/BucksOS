@@ -1,0 +1,1 @@
+bash ~/BucksOS/start.sh
