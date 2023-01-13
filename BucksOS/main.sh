@@ -3,7 +3,7 @@ read n
 echo "Password: "
 read p
 if [[( $n == "root" && $p == "0000")]]; then 
-bash run.sh
+bash ~/BucksOS/BucksOS/run.sh
 else 
 echo "Wrong password or username..."
 fi
