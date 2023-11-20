@@ -1,1 +1,1 @@
-bash main.sh
+bash ~/BucksOS/BucksOS/main.sh
