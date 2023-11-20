@@ -8,6 +8,7 @@ bash start.sh
 fi
 
 if [[( $inp == "n")]]; then 
+sudo apt-get install htop -y
 exit
 fi
 sudo apt-get install htop -y
