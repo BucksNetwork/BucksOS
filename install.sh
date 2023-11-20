@@ -5,13 +5,13 @@ echo "$n > "
 read inp
 if [[( $inp == "y")]]; then 
 bash start.sh
+sudo apt-get install htop -y
 fi
 
 if [[( $inp == "n")]]; then 
 sudo apt-get install htop -y
 exit
 fi
-sudo apt-get install htop -y
 
 exit
 
