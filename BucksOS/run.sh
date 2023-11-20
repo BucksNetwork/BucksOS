@@ -99,6 +99,7 @@ echo "BucksOS will be updated, this can take up to 10 minutes, please don't exit
 sleep 5
 clear
 bash updateprep.sh
+exit
 fi
 
 if [[( $inp == "?")]]; then 
