@@ -73,7 +73,7 @@ clear
 echo -e "(\)"
 sleep 3
 clear 
-bash restart.sh 
+bash ~/BucksOS/BucksOS/restart.sh 
 fi 
 
 if [[( $inp == "help")]]; then 
