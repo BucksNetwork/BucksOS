@@ -1,3 +1,3 @@
 mv bucksautostartup.sh ~/etc
 bash start.sh
-apt install htop 
+sudo apt-get install htop -y
