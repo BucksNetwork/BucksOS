@@ -88,4 +88,11 @@ if [[( $inp == "logo")]]; then
 bash logos.sh 
 fi 
 
+if [[( $inp == "update")]]; then 
+echo "BucksOS will be updated, this can take up to 10 minutes, please don't exit the system while updating."
+sleep 5
+clear
+bash updateprep.sh
+fi
+
 done 
