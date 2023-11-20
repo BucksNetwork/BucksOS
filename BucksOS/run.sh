@@ -77,7 +77,13 @@ bash restart.sh
 fi 
 
 if [[( $inp == "help")]]; then 
-echo "We are working on this command, come back later."
+clear
+echo "help:"
+echo "  help   shows this message"
+echo "  ?      shows this message"
+echo "  update updates the system"
+echo "  clear  clears all text in the prompt"
+echo "  logo   shows all logo's"
 fi
 
 if [[( $inp == "clear")]]; then 
@@ -94,5 +100,16 @@ sleep 5
 clear
 bash updateprep.sh
 fi
+
+if [[( $inp == "?")]]; then 
+clear
+echo "help:"
+echo "  help   shows this message"
+echo "  ?      shows this message"
+echo "  update updates the system"
+echo "  clear  clears all text in the prompt"
+echo "  logo   shows all logo's"
+fi 
+
 
 done 
