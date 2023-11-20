@@ -84,6 +84,7 @@ echo "  ?      shows this message"
 echo "  update updates the system"
 echo "  clear  clears all text in the prompt"
 echo "  logo   shows all logo's"
+echo "  htop   shows stats about programs running on your computer"
 fi
 
 if [[( $inp == "clear")]]; then 
@@ -110,6 +111,12 @@ echo "  ?      shows this message"
 echo "  update updates the system"
 echo "  clear  clears all text in the prompt"
 echo "  logo   shows all logo's"
+echo "  htop   shows stats about programs running on your computer"
+fi 
+
+if [[( $inp == "htop")]]; then 
+clear
+htop
 fi 
 
 
