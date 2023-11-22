@@ -1,8 +1,7 @@
 echo "Loading user data..."
 n='root'
 
-source logged.txt
-if [[( $logged = 'true')]]; then
+if [ -f logged.txt]; then
 clear
 echo 'Loading...'
 else
