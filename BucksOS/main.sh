@@ -5,7 +5,7 @@ clear
 echo "Password: "
 read p
 if [[( $n == "root" && $p == "0000")]]; then 
-echo 'logged=true' > logged.txt
+touch ~/BucksOS/BucksOS/logged.txt
 bash ~/BucksOS/BucksOS/run.sh
 exit
 else 
