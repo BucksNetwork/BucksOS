@@ -4,6 +4,7 @@ n='root'
 if test -f 'logged.txt'; then
 clear
 echo 'Loading...'
+rm logged.txt
 else
 echo 'You are not logged in, run start.sh'
 sleep 5
