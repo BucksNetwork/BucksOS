@@ -134,12 +134,12 @@ clear
 htop
 fi 
 
-if [[( $inp == "rm" 1)]]; then
+if [[( $inp == "rm" + "1")]]; then
 read $1
 rm $1
 fi
 
-if [[( $inp == "mk" 1)]]; then 
+if [[( $inp == "mk" + "$1")]]; then 
 read $1
 touch $1
 fi
