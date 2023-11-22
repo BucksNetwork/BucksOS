@@ -5,7 +5,7 @@ clear
 echo "Password: "
 read p
 if [[( $n == "root" && $p == "0000")]]; then 
-bash sed -i 'logged=true' logged.txt
+echo 'logged=true' > logged.txt
 bash ~/BucksOS/BucksOS/run.sh
 exit
 else 
