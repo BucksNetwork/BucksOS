@@ -135,11 +135,13 @@ htop
 fi 
 
 if [[( $inp == "rm")]]; then
-rm $2 
+read $1
+rm $1
 fi
 
 if [[( $inp == "mk")]]; then 
-touch ~/BucksOS/BucksOS/$2
+read $1
+touch $1
 fi
 
 done 
