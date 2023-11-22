@@ -1,6 +1,17 @@
 echo "Loading user data..."
 n='root'
 
+source logged.txt
+if [[( $logged = 'true')]]; then
+clear
+echo 'Loading...'
+else
+echo 'You are not logged in, run start.sh'
+sleep 5
+exit
+fi 
+
+
 clear
 echo "Welcome $n"
 sleep 2
