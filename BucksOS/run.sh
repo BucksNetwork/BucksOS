@@ -1,7 +1,7 @@
 echo "Loading user data..."
 n='root'
 
-if test -f 'logged.txt'; then
+if test -f '~/BucksOS/BucksOS/logged.txt'; then
 clear
 echo 'Loading...'
 rm ~/BucksOS/logged.txt
