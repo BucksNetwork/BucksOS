@@ -90,12 +90,14 @@ fi
 if [[( $inp == "help")]]; then 
 clear
 echo "help:"
-echo "  help   shows this message"
-echo "  ?      shows this message"
-echo "  update updates the system"
-echo "  clear  clears all text in the prompt"
-echo "  logo   shows all logo's"
-echo "  htop   shows stats about programs running on your computer"
+echo "  help      shows this message"
+echo "  ?         shows this message"
+echo "  update    updates the system"
+echo "  clear     clears all text in the prompt"
+echo "  logo      shows all logo's"
+echo "  htop      shows stats about programs running on your computer"
+echo "  rm <file> removes the mentioned file"
+echo "  mk <name> creates a file with the given name"
 fi
 
 if [[( $inp == "clear")]]; then 
@@ -117,12 +119,14 @@ fi
 if [[( $inp == "?")]]; then 
 clear
 echo "help:"
-echo "  help   shows this message"
-echo "  ?      shows this message"
-echo "  update updates the system"
-echo "  clear  clears all text in the prompt"
-echo "  logo   shows all logo's"
-echo "  htop   shows stats about programs running on your computer"
+echo "  help      shows this message"
+echo "  ?         shows this message"
+echo "  update    updates the system"
+echo "  clear     clears all text in the prompt"
+echo "  logo      shows all logo's"
+echo "  htop      shows stats about programs running on your computer"
+echo "  rm <file> removes the mentioned file"
+echo "  mk <name> creates a file with the given name"
 fi 
 
 if [[( $inp == "htop")]]; then 
@@ -130,5 +134,12 @@ clear
 htop
 fi 
 
+if [[( $inp == "rm")]]; then
+rm $2 
+fi
+
+if [[( $inp == "mk")]]; then 
+touch ~/BucksOS/BucksOS/$2
+fi
 
 done 
