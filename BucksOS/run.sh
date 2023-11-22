@@ -1,7 +1,7 @@
 echo "Loading user data..."
 n='root'
 
-if [ -f logged.txt]; then
+if test -f 'logged.txt'; then
 clear
 echo 'Loading...'
 else
