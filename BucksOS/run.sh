@@ -90,15 +90,15 @@ fi
 if [[( $inp == "help")]]; then 
 clear
 echo "help:"
-echo "  help      ${unl}shows this message${resat}"
-echo "  ?         ${unl}shows this message${resat}"
-echo "  update    ${unl}updates the system${resat}"
-echo "  clear     ${unl}clears all text in the prompt${resat}"
-echo "  logo      ${unl}shows all logo's${resat}"
-echo "  htop      ${unl}shows stats about programs running on your computer${resat}"
-echo "  rm <file> ${unl}removes the mentioned file${resat}"
-echo "  mk <name> ${unl}creates a file with the given name${resat}"
-echo "  ls        ${unl}shows all main files${resat}"
+echo -e "  help      ${unl}shows this message${resat}"
+echo -e "  ?         ${unl}shows this message${resat}"
+echo -e "  update    ${unl}updates the system${resat}"
+echo -e "  clear     ${unl}clears all text in the prompt${resat}"
+echo -e "  logo      ${unl}shows all logo's${resat}"
+echo -e "  htop      ${unl}shows stats about programs running on your computer${resat}"
+echo -e "  rm <file> ${unl}removes the mentioned file${resat}"
+echo -e "  mk <name> ${unl}creates a file with the given name${resat}"
+echo -e "  ls        ${unl}shows all main files${resat}"
 fi
 
 if [[( $inp == "clear")]]; then 
@@ -120,15 +120,15 @@ fi
 if [[( $inp == "?")]]; then 
 clear
 echo "help:"
-echo "  help      ${unl}shows this message${resat}"
-echo "  ?         ${unl}shows this message${resat}"
-echo "  update    ${unl}updates the system${resat}"
-echo "  clear     ${unl}clears all text in the prompt${resat}"
-echo "  logo      ${unl}shows all logo's${resat}"
-echo "  htop      ${unl}shows stats about programs running on your computer${resat}"
-echo "  rm <file> ${unl}removes the mentioned file${resat}"
-echo "  mk <name> ${unl}creates a file with the given name${resat}"
-echo "  ls        ${unl}shows all main files${resat}"
+echo -e "  help      ${unl}shows this message${resat}"
+echo -e "  ?         ${unl}shows this message${resat}"
+echo -e "  update    ${unl}updates the system${resat}"
+echo -e "  clear     ${unl}clears all text in the prompt${resat}"
+echo -e "  logo      ${unl}shows all logo's${resat}"
+echo -e "  htop      ${unl}shows stats about programs running on your computer${resat}"
+echo -e "  rm <file> ${unl}removes the mentioned file${resat}"
+echo -e "  mk <name> ${unl}creates a file with the given name${resat}"
+echo -e "  ls        ${unl}shows all main files${resat}"
 fi 
 
 if [[( $inp == "htop")]]; then 
