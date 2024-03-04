@@ -98,6 +98,7 @@ echo "  logo      shows all logo's"
 echo "  htop      shows stats about programs running on your computer"
 echo "  rm <file> removes the mentioned file"
 echo "  mk <name> creates a file with the given name"
+echo "  ls        shows all main files"
 fi
 
 if [[( $inp == "clear")]]; then 
@@ -127,6 +128,7 @@ echo "  logo      shows all logo's"
 echo "  htop      shows stats about programs running on your computer"
 echo "  rm <file> removes the mentioned file"
 echo "  mk <name> creates a file with the given name"
+echo "  ls        shows all main files"
 fi 
 
 if [[( $inp == "htop")]]; then 
@@ -142,6 +144,10 @@ fi
 if [[( $inp == "mk $1")]]; then 
 read $1
 touch $1
+fi
+
+if [[( $inp == "ls")]]; then
+bash ls
 fi
 
 done 
