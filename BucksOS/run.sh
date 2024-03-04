@@ -90,15 +90,15 @@ fi
 if [[( $inp == "help")]]; then 
 clear
 echo "help:"
-echo "  help      shows this message"
-echo "  ?         shows this message"
-echo "  update    updates the system"
-echo "  clear     clears all text in the prompt"
-echo "  logo      shows all logo's"
-echo "  htop      shows stats about programs running on your computer"
-echo "  rm <file> removes the mentioned file"
-echo "  mk <name> creates a file with the given name"
-echo "  ls        shows all main files"
+echo "  help      ${unl}shows this message${resat}"
+echo "  ?         ${unl}shows this message${resat}"
+echo "  update    ${unl}updates the system${resat}"
+echo "  clear     ${unl}clears all text in the prompt${resat}"
+echo "  logo      ${unl}shows all logo's${resat}"
+echo "  htop      ${unl}shows stats about programs running on your computer${resat}"
+echo "  rm <file> ${unl}removes the mentioned file${resat}"
+echo "  mk <name> ${unl}creates a file with the given name${resat}"
+echo "  ls        ${unl}shows all main files${resat}"
 fi
 
 if [[( $inp == "clear")]]; then 
@@ -120,15 +120,15 @@ fi
 if [[( $inp == "?")]]; then 
 clear
 echo "help:"
-echo "  help      shows this message"
-echo "  ?         shows this message"
-echo "  update    updates the system"
-echo "  clear     clears all text in the prompt"
-echo "  logo      shows all logo's"
-echo "  htop      shows stats about programs running on your computer"
-echo "  rm <file> removes the mentioned file"
-echo "  mk <name> creates a file with the given name"
-echo "  ls        shows all main files"
+echo "  help      ${unl}shows this message${resat}"
+echo "  ?         ${unl}shows this message${resat}"
+echo "  update    ${unl}updates the system${resat}"
+echo "  clear     ${unl}clears all text in the prompt${resat}"
+echo "  logo      ${unl}shows all logo's${resat}"
+echo "  htop      ${unl}shows stats about programs running on your computer${resat}"
+echo "  rm <file> ${unl}removes the mentioned file${resat}"
+echo "  mk <name> ${unl}creates a file with the given name${resat}"
+echo "  ls        ${unl}shows all main files${resat}"
 fi 
 
 if [[( $inp == "htop")]]; then 
